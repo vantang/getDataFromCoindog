@@ -12,8 +12,8 @@ secret_key = 'replace_your_accesskey_here'
 ts = int(time.time())
 # Define httpParams
 httpParams = \
- 'access_key='+access_key + \
- '&date='+str(ts) + \
+ 'access_key=' + access_key + \
+ '&date=' + str(ts) + \
  '&secret_key=' + secret_key
 hl = hashlib.md5()
 hl.update(httpParams.encode(encoding='utf-8'))
