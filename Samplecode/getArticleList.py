@@ -6,7 +6,7 @@ import urllib
 import hashlib
 import json
 # Key Setting
-access_key = 'replace_your_accesskey_here'
+access_key = 'replace_your_accesskey_here'
 secret_key = 'replace_your_accesskey_here'
 # GetTimestamp
 ts = int(time.time())
